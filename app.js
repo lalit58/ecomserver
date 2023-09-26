@@ -37,3 +37,5 @@ app.use("/api/v1/order", order);
 // Using error Middleware
 
 app.use(errorMiddleware);
+
+// "dev": "export NODE_ENV=development&& nodemon server.js",
